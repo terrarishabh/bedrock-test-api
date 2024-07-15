@@ -19,7 +19,6 @@ app.get('/2', (req, res) => {
     res.json(response);
 });
 
-// Start the Express server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
