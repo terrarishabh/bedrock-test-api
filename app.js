@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const port = process.env.PORT || 4000; // Choose any port number you like
+const port = process.env.PORT || 4000;
 
 app.get('/1', (req, res) => {
     const response = {
