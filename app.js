@@ -3,7 +3,7 @@ const express = require('express');
 
 // Create an instance of Express
 const app = express();
-const port = 3000; // Choose any port number you like
+const port = process.env.PORT || 4000; // Choose any port number you like
 
 // Define a route handler for the root path
 app.get('/1', (req, res) => {
